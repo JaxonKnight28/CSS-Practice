@@ -1,0 +1,24 @@
+h1 {
+    color: red;
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+ol li {
+    font-weight: bold;
+    list-style: upper-roman;
+}
+ul li {
+    list-style: georgian;
+}
+table {
+    border: 2px;
+    border-color: black;
+    padding: 5px;
+}
+body {
+    margin: 0;
+    padding: 0; /*display:flex;  is very helpful*/
+    width: 100%;
+    height: auto;
+}
