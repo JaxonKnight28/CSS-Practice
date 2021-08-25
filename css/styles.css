@@ -3,22 +3,28 @@ h1 {
 }
 h3 {
     font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 ol li {
     font-weight: bold;
     list-style: upper-roman;
+    color: white;
 }
 ul li {
     list-style: georgian;
+    color: white;
 }
-table {
-    border: 2px;
-    border-color: black;
-    padding: 5px;
-}
-body {
+body { /* This will help with the body */
     margin: 0;
     padding: 0; /*display:flex;  is very helpful*/
     width: 100%;
     height: auto;
+    background-image: url(../pictures/sunset-2.png);
+    background-repeat: no-repeat; /*These help a lot with background image*/
+    background-size: cover;
+}
+.header {
+    margin: 20px;
+    padding: 10px;
+    border: 5px dashed red;
 }
