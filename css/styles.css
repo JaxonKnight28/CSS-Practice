@@ -15,16 +15,28 @@ ul li {
     color: white;
 }
 body { /* This will help with the body */
-    margin: 0;
-    padding: 0; /*display:flex;  is very helpful*/
-    width: 100%;
-    height: auto;
-    background-image: url(../pictures/sunset-2.png);
-    background-repeat: no-repeat; /*These help a lot with background image*/
+    background-image: url(../pictures/sunset-2.png); /*These help a lot with background image*/
     background-size: cover;
 }
+.container {
+    width: 80%;
+    background-color: lightgray;
+    margin: 0 auto;
+}
 .header {
-    margin: 20px;
-    padding: 10px;
-    border: 5px dashed red;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+/* These help to move the div to where you want it */
+.hero {
+    display: flex;
+    justify-content: flex-end;
+}
+.hero img {
+    width :200px;
+}
+.action {
+    width: 50%;
+    background-color: green;
 }
