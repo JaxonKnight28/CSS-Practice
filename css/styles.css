@@ -33,6 +33,9 @@ body { /* This will help with the body */
     display: flex;
     justify-content: flex-end;
 }
+.hero img {
+    width :200px;
+}
 .action {
     width: 50%;
     background-color: green;
